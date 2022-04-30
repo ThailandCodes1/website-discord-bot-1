@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #121318;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #101114;
+    overflow: auto;
+    display: flex;  
+  }
+.navbar img{
+    border-radius: 50%;
+     width: 50px; 
+     
+}
+.navbar a {
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.navbar a:hover {
+    background-color: #141516;
+  }
+
+.home {
+    padding: 100px 0;
+    color: white;
+    font-size: 25px;
+    text-align:center;
+}
+.home .st{
+    font-size: 50px;
+}
+
+.home .but {
+    background-color: #0a0a0a;
+    stroke: #101114;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 15px;
+    transition: 0.3s ease; 
+    text-decoration: none;
+}
+
+.about {
+    color: white;
+    padding: 100px 0;
+}
+.about .text {
+    font-size: 35px;
+    text-align: center;
+}
+.about .box{
+    
+    background-color: #272933;
+    border-radius: 15px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    display:inline-flex;
+}
+footer{
+    background: #101114;
+    padding: 20px 20px;
+    margin-top: 250px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+footer span a{
+    text-decoration: none;
+    color: #00c3ff;
+}
